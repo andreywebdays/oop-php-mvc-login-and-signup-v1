@@ -1,0 +1,102 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/* CSS Reset */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+    /* CSS Layout Test */
+    /* border: 1px;
+    border-style: solid;
+    border-color: blueviolet; */
+}
+
+/* Common */
+body{
+    font-family: 'Roboto', sans-serif;
+    background: #cad2db;
+}
+
+a{
+    color: #eeb676;
+}
+
+h4{
+    font-size: 22px;
+    color: #eeb676;
+    line-height: 32px;
+    text-align: center;
+}
+
+p{
+    font-size: 12px;
+    color: #fff;
+    line-height: 24px;
+}
+
+/* Header */
+header{
+    padding: 0 50px;
+    width: 100%;
+    height: 80px;
+    background: #6b747e;
+}
+
+header nav{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav div{
+    display: flex;
+}
+
+header nav div h3{
+    margin-right: 10px;
+    color: #fff;
+}
+
+header nav div ul{
+    display: flex;
+}
+
+header nav div ul li{
+    margin: 0 10px;
+    list-style: none;
+}
+
+/* Login & SingUp Forms */
+.signup-and-login{
+    margin: 50px 0;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 900px;
+    margin: 0 auto;
+}
+
+.signup-form,
+.login-form{
+    width: 300px;
+    padding: 10px;
+    background: #6b747e;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+form input{
+    margin-bottom: 10px;
+}
+
